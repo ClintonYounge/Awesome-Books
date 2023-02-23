@@ -1,61 +1,165 @@
 <a name="readme-top"></a>
 
+
+<div align="center">
+  
+
+  <h3><b>Awesome Book README</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Present History Bookstore] <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-**[Present History Bookstore]** is a Microverse project......................................
+# 📖 [Awesome Book] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[Awesome Book]** is a microverse Project which allows users to ADD books by inputing the Book title and the Book author, and REMOVE books at will.
 
 ## 🛠 Built With <a name="built-with"></a>
+
 ### Tech Stack <a name="tech-stack"></a>
 
-<ul>
-  <li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
-  <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
-  <li><a>JavaScript</a></li>
-</ul>
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML</a></li>
+  </ul>
+ 
+  <ul>
+    <li><a href="https://jsdocs.com/">JavaScript</a></li>
+  </ul>
+</details>
+
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **[.............]**
-- **[.............]**
-- **[.............]**
-- **[.............]**
+
+> Describe between 1-3 key features of the application.
+
+- **[Add Boks to Library]**
+- **[Delete Books]**
+- **[Local Storage]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> .......................................
+> Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
-
+### Prerequisites
+In order to run this project you need to:
+- Install Git
+- Install NPM
+- Have working browser
+- Good internet connection
+- Install a code editor like Visual Studio Code
+- Install Live Server plugging in Visual Studio Code
 ### Setup
+Clone this repository to your desired folder:
+- Choose a directory
+- Open a Terminal
+- write: git clone https://github.com/ClintonYounge/Awesome-Books
+- get into to directory "portfolio_mobile_mainpage"
+- write: npm install
+### Install
+Install this project with linters:
+- On your branch create .github/workflows/linters.yml
+- Do not make any changes in config files
+- Create .gitignore/ and instert node_modules/
+- On the terminal run npm install --save-dev hint@7.x
+- Copy .hintrc to the root directory of your project.
+- Run npx hint .
+- Run npx eslint .
+- Fix linter errors.
+### Usage
+To run the project, execute the following command:
+- Open the project by launching the Live Server plugging in visual studio code
 
-Clone this repository to your desired folder using <a href="https://gitforwindows.org/">Git</a> or <a href="https://desktop.github.com/">GitHub Desktop</a>
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
+
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Clinton Yougne**
+> Mention all of the collaborators of this project.
+
+
+👤 **Clinton Younge**
 
 - GitHub: [@ClintonYounge](https://github.com/ClintonYounge)
 - Twitter: [@YoungeCjay](https://twitter.com/YoungeCjay)
 - LinkedIn: [@clintonyounge](https://www.linkedin.com/in/clinton-younge-83386a25a/)
 
+👤 **Daniel Ochuba**
+
+- GitHub: [@danielochuba](https://github.com/danielochuba)
+- Twitter: [@ochuba_daniel](https://twitter.com/ochuba_daniel)
+- LinkedIn: [@daniel_ochuba](www.linkedin.com/in/daniel-ochuba-614572238)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Button Styles]**
+- [ ] **[Table Display]**
+- [ ] **[More Pages]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -65,20 +169,27 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
+
+
+If you like this project you can give me a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements">I would like to thank  Microverse for this opportunity to learn and W3Schools for the information shared in their site.</a>
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my standup team for help settling my mind to persevere through this project.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
