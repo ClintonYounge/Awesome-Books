@@ -36,11 +36,14 @@ function addBook() {
   booksArray.push(book);
   localStorage.setItem('booksArray', JSON.stringify(booksArray));
 }
+
 btnSubmit.addEventListener('click', addBook);
+const remove = document.querySelector('.remove-btn');
 
 function deleteBook(id) {
   booksArray = booksArray.filter((bookItem) => bookItem.id !== id);
   localStorage.setItem('booksArray', JSON.stringify(booksArray));
-  location.reload();
+  window.location.reload();
 }
 
+remove.addEventListener('click', deleteBook);
