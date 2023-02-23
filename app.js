@@ -36,11 +36,15 @@ function addBook() {
   booksArray.push(book);
   localStorage.setItem('booksArray', JSON.stringify(booksArray));
 }
+
 btnSubmit.addEventListener('click', addBook);
+const remove = document.querySelector('.remove-btn');
+
+remove.addEventListener('click', deleteBook)
+
 
 function deleteBook(id) {
   booksArray = booksArray.filter((bookItem) => bookItem.id !== id);
   localStorage.setItem('booksArray', JSON.stringify(booksArray));
   location.reload();
 }
-
