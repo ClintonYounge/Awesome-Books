@@ -49,11 +49,17 @@ Clone this repository to your desired folder using <a href="https://gitforwindow
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Clinton Yougne**
+👤 **Clinton Younge**
 
 - GitHub: [@ClintonYounge](https://github.com/ClintonYounge)
 - Twitter: [@YoungeCjay](https://twitter.com/YoungeCjay)
 - LinkedIn: [@clintonyounge](https://www.linkedin.com/in/clinton-younge-83386a25a/)
+
+👤 **Daniel Ochuba**
+
+- GitHub: [@danielochuba](https://github.com/danielochuba)
+- Twitter: [@ochuba_daniel](https://twitter.com/ochuba_daniel)
+- LinkedIn: [@daniel_ochuba](www.linkedin.com/in/daniel-ochuba-614572238)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
