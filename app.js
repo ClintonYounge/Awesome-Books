@@ -63,7 +63,7 @@ class BookList {
 
 const newBook = new BookList();
 
-newBook.BookList();
+const bookList = new BookList();
 
 // DISPLAY TIME AND DATE IN CONTACT SECTION
 document.querySelector('.date-time').textContent = Date();
