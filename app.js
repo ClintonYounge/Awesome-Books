@@ -63,6 +63,4 @@ class BookList {
 
 // Create a new instance of the BookList class
 const bookList = new BookList();
-
-// Set the text content of an element with class "date-time" to the current date and time
-document.querySelector('.date-time').textContent = Date();
+bookList.BookList();
