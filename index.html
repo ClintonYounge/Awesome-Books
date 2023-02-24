@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h2 class="heading">Awesome Books</h2>
-        <div class="book-section">
-        </div>
-        <form action="">
-            <label for="title"></label>
-            <input type="text" id="title" name="title" placeholder="Title" required><br><br>
-            <label for="author"></label>
-            <input type="text" id="author" name="author" placeholder="Author" required><br><br>
-            <button type="submit" id="add-btn">Add</button>
-        </form>
-        <script src="app.js" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="center">Awesome Books</h1>
+    <table id="book-list">
+        
+        <tbody>
+          <!-- Book items will be added dynamically with JavaScript -->
+        </tbody>
+      </table>
+    <br>
+    <hr><br>
+    <div class="form-container">
+      <form id="book-form">
+      <h2 class="center">Add a new book</h2><br>
+      <input type="text" id="title" name="title" required placeholder="Title"><br><br>
+      <input type="text" id="author" name="author" required placeholder="Author"><br><br>
+      <button type="submit" class="submit center">Add</button>
+    </form>
+  </div>
+    <script src="app.js"></script>
+  </body>
 </html>
