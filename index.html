@@ -7,9 +7,21 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h1 class="center">Awesome Books</h1>
+  <header>
+    <nav class="nav-items">
+      <a href="#" class="awesome">Awesome Books</a>
+      <ul class="nav-links">
+        <li class="link1 link-item">List</li>|
+        <li class="link2 link-item active">Add New</li>|
+        <li class="link3 link-item">Contact</li>
+      </ul>
+    </nav>
+  </header>
+    <section class="list-section">
+      <h1 class="center">Awesome Books</h1>
     <table id="book-list">
         
         <tbody>
@@ -18,14 +30,34 @@
       </table>
     <br>
     <hr><br>
-    <div class="form-container">
-      <form id="book-form">
-      <h2 class="center">Add a new book</h2><br>
-      <input type="text" id="title" name="title" required placeholder="Title"><br><br>
-      <input type="text" id="author" name="author" required placeholder="Author"><br><br>
-      <button type="submit" class="submit center">Add</button>
-    </form>
-  </div>
+    </section>
+    <section class="add-new-section">
+      <div class="form-container">
+        <form id="book-form">
+        <h2 class="center">Add a new book</h2><br>
+        <input type="text" id="title" name="title" required placeholder="Title"><br><br>
+        <input type="text" id="author" name="author" required placeholder="Author"><br><br>
+        <button type="submit" class="submit center">Add</button>
+      </form>
+    </div>
+    </section>
+    <section class="contact-section">
+      <span class="date-time">rgrg</span>
+      <br><br><h1 class="center">Contact information</h1>
+     <br><br> 
+      <div class="contact-info">
+        <p>Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!</p>
+          <ul class="">
+            <li>Our e-mail: clintondaniel@mail.com</li>
+            <li>Our phone number: 0043586534422</li>
+            <li>Our address: Microverse 22, 84503 oklahoma, USA</li>
+          </ul>
+        </div>
+    </section>
+    <footer>
+      <p > Copyright ... <em>Clinton & Daniel</em></p>
+    </footer>
+    <script src="./navigation.js" defer></script>
     <script src="app.js"></script>
   </body>
 </html>
