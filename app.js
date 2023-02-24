@@ -27,12 +27,12 @@ class BookList {
   // Display all books in the list
   displayBooks() {
     this.table.innerHTML = '';
-    this.books.forEach(book => {
+    this.books.forEach((book) => {
       const row = document.createElement('tr');
+      row.className = 'row';
       row.innerHTML = `
-        <td>${book.title}</td>
-        <td>${book.author}</td>
-        <td><button class="delete">Remove</button></td>
+        <td class="content"><strong>${book.title}</strong><em> &ensp;by&ensp; </em>  <strong>${book.author}<strong></td> 
+        <td class ="delete-btn" ><button class="delete"><strong class="delete-button">Remove</strong></button></td>
       `;
       this.table.appendChild(row);
     });
@@ -57,7 +57,7 @@ class BookList {
 
   // Remove a book from the list
   removeBook(e) {
-    if (!e.target.classList.contains('delete')) {
+    if (!e.target.classList.contains('delete-button')) {
       return;
     }
     const row = e.target.closest('tr');

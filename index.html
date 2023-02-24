@@ -4,28 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Awesome Books</h1>
+    <h1 class="center">Awesome Books</h1>
     <table id="book-list">
-        <thead>
-          <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-          </tr>
-        </thead>
+        
         <tbody>
           <!-- Book items will be added dynamically with JavaScript -->
         </tbody>
       </table>
-    <form id="book-form">
-      <input type="text" id="title" name="title" required placeholder="Title"><br>
-      <input type="text" id="author" name="author" required placeholder="Author"><br>
-      <button type="submit">Add Book</button>
+    <br>
+    <hr><br>
+    <div class="form-container">
+      <form id="book-form">
+      <h2 class="center">Add a new book</h2><br>
+      <input type="text" id="title" name="title" required placeholder="Title"><br><br>
+      <input type="text" id="author" name="author" required placeholder="Author"><br><br>
+      <button type="submit" class="submit center">Add</button>
     </form>
+  </div>
     <script src="app.js"></script>
   </body>
 </html>
