@@ -1,6 +1,6 @@
 class BookList {
   constructor() {
-    this.books = this.getBooks();
+    this.books = JSON.parse(localStorage.getItem('books')) || [];
     this.table = document.querySelector('#book-list tbody');
     this.form = document.querySelector('form');
     this.titleInput = document.querySelector('#title');
@@ -9,14 +9,8 @@ class BookList {
     // Bind event listeners
     this.form.addEventListener('submit', this.addBook.bind(this));
     this.table.addEventListener('click', this.removeBook.bind(this));
-
     // Display books
     this.displayBooks();
-  }
-
-  // Get books from local storage
-  getBooks() {
-    return JSON.parse(localStorage.getItem('books')) || [];
   }
 
   // Save books to local storage
@@ -44,7 +38,6 @@ class BookList {
     const title = this.titleInput.value.trim();
     const author = this.authorInput.value.trim();
     if (!title || !author) {
-      alert('Please fill in all fields');
       return;
     }
     const book = { title, author };
