@@ -61,4 +61,6 @@ class BookList {
   }
 }
 
-new BookList();
+const newBook = new BookList();
+
+newBook.BookList();
