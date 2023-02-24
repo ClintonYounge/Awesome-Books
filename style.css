@@ -94,3 +94,36 @@ header {
 .contact-section {
   display: none;
 }
+
+.contact-info {
+  display: grid;
+  margin: auto;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.contact-info ul li {
+  list-style-type: disc;
+}
+
+.date-time {
+  position: absolute;
+  right: 0;
+  margin-right: 5%;
+  font-weight: bolder;
+}
+
+.active {
+  color: blue;
+  font-weight: bold;
+}
+
+footer {
+  margin: auto;
+  position: absolute;
+  bottom: 10px;
+  border: 1px solid black;
+  width: 90%;
+  height: 40px;
+  left: 5%;
+}
